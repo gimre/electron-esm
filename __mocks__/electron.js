@@ -1,10 +1,11 @@
 
 module.exports = {
     app: {
-        on: jest.fn( ( event, cb ) => cb( ) )
+        isReady: jest.fn( ),
+        on: jest.fn( ( _, cb ) => cb( ) )
     },
     protocol: {
-        registerBufferProtocol: jest.fn( ),
+        registerBufferProtocol: jest.fn( ( _, cb ) => cb( ) ),
         registerStandardSchemes: jest.fn( )
     }
 }

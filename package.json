@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "example": "electron examples/shell.js",
     "test": "NODE_ENV=test jest"
   },
   "repository": {
