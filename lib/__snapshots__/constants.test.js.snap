@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`are set correctly 1`] = `
+Object {
+  "DEFAULT_OPTIONS": Object {
+    "cjsProtocol": "cjs",
+    "esmProtocol": "esm",
+    "root": "./",
+  },
+  "ERR_APP_ALREADY_READY": "you can only use electron-esm before app.ready",
+  "ERR_FILE_NOT_FOUND": -6,
+  "ERR_NOT_MAIN_PROCESS": "you can only use electron-esm in the main process",
+  "MIME_TYPE": "text/javascript",
+  "PROCESS_TYPE_MAIN": "browser",
+}
+`;

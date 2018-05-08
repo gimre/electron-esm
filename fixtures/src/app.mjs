@@ -12,6 +12,6 @@ const sayHi = ( ) => console.log( '!' )
 
 export default ( ) => jsx`
     <${ Container } onClick=${ sayHi }>
-        hai thar
+        hai thar!
     </${ Container }>
 `

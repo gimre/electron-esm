@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cjs handler returns an ES module wrapper 1`] = `
+"
+        const exports = require( 'fake-module' )
+        export default exports.default || exports
+    "
+`;
