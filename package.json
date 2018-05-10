@@ -1,7 +1,7 @@
 {
   "name": "electron-esm",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Native ES Modules helper for Electron",
   "main": "index.js",
   "scripts": {
     "example": "electron examples/shell.js",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/gimre/electron-esm.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "imregabriel@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gimre/electron-esm/issues"
